@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600&display=swap');
+
+html,
+body,
+#content {
+  width: 100%;
+  height: 100%;
+  font-family: 'Wix Madefor Display', sans-serif;
+}
+
+#search {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#search-text {
+  border-radius: 20px;
+  border: 2px solid black;
+  padding-left: 12px;
+}
+
+#search-text.invalid {
+  border: 2px solid red;
+}
+
+#fetch {
+  height: 25px;
+  margin-left: 10px;
+}
+
+#query-result {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#location {
+  font-size: 50px;
+}
+
+#country {
+  font-size: 20px;
+}
+
+#temperature {
+  margin-top: 50px;
+  display: flex;
+}
+
+#actual {
+  font-size: 100px;
+}
+
+#feels-like {
+  margin-top: auto;
+  margin-left: 20px;
+  margin-bottom: auto;
+}
+
+#condition {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.current-condition {
+  width: 84px;
+}
+
+#localtime {
+  font-size: 30px;
+  margin-top: 20px;
+}

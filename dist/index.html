@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="content">
+      <div id="search">
+        <input
+          type="text"
+          name="search-text"
+          id="search-text"
+          placeholder="London"
+        />
+        <img src="./search.svg" alt="search" id="fetch" />
+      </div>
+
+      <div id="query-result">
+        <div id="location">Please enter a search term</div>
+        <div id="country"></div>
+        <div id="temperature">
+          <div id="condition"></div>
+          <div id="actual"></div>
+          <div id="feels-like"></div>
+        </div>
+        <div id="localtime"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
